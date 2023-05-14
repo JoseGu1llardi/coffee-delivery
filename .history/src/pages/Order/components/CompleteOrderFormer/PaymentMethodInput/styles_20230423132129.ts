@@ -1,0 +1,7 @@
+import styled from "styled-components";
+
+
+export const PaymentMethodContainer = styled.div`
+    padding: 0 1rem;
+    background: ${({ theme }) => theme.colors["base-button"]};
+`;
